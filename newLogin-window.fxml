@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.text.*?>
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="403.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1"
+  fx:controller="login.Controller">
+    <columnConstraints>
+      <ColumnConstraints />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="214.0" minWidth="8.0" prefWidth="18.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="319.0" minWidth="10.0" prefWidth="211.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="164.0" minWidth="0.0" prefWidth="16.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="322.0" minWidth="10.0" prefWidth="159.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="134.0" minWidth="0.0" prefWidth="17.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="216.0" minWidth="10.0" prefWidth="163.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="216.0" minWidth="10.0" prefWidth="18.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints maxHeight="126.0" minHeight="7.0" prefHeight="20.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="289.0" minHeight="10.0" prefHeight="54.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="289.0" minHeight="10.0" prefHeight="39.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="231.0" minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="323.0" minHeight="6.0" prefHeight="91.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="95.0" minHeight="0.0" prefHeight="41.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="92.0" minHeight="2.0" prefHeight="23.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="86.0" minHeight="10.0" prefHeight="80.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="67.0" minHeight="10.0" prefHeight="22.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Ellipse fill="DODGERBLUE" radiusX="107.0" radiusY="100.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <Button mnemonicParsing="false" prefHeight="58.0" prefWidth="154.0" text="Выйти" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="7"
+      onAction="#outIsClicked">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button mnemonicParsing="false" prefHeight="73.0" prefWidth="270.0" text="Добавить аккаунт" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="7"
+      onAction="#addAkk">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button mnemonicParsing="false" prefHeight="58.0" prefWidth="123.0" text="Отмена" GridPane.columnIndex="6" GridPane.rowIndex="7">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button mnemonicParsing="false" prefHeight="10.0" prefWidth="214.0" text="Сменить фото" GridPane.columnIndex="2" GridPane.rowIndex="5">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField prefHeight="28.0" prefWidth="203.0" text="belibeerda@gmail.com" GridPane.columnIndex="6" GridPane.rowIndex="2">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField text="Иван Иванов" GridPane.columnIndex="6" GridPane.rowIndex="1">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Логин:" wrappingWidth="160.3154296875" GridPane.columnIndex="4" GridPane.rowIndex="1">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail:" wrappingWidth="160.724609375" GridPane.columnIndex="4" GridPane.rowIndex="2">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Аккаунт -- Конфиденциальность" wrappingWidth="343.13671875" GridPane.columnIndex="4" GridPane.rowIndex="4">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+   </children>
+</GridPane>
